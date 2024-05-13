@@ -6,3 +6,7 @@ Hello World! This is my second project that will feature a landing page for *som
 ## Credits
 
 **Roboto font** - Christian Robertson
+**tramwaj-bialystok.jpg** - phototrans.eu
+**eco-friendly.png** - kmg design
+**fast.png** - chehuna
+**cheap.png** - Good Ware
