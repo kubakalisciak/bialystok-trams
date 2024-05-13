@@ -10,3 +10,4 @@ Hello World! This is my second project that will feature a landing page for *som
 **eco-friendly.png** - kmg design
 **fast.png** - chehuna
 **cheap.png** - Good Ware
+**capacity.png** - Freepik
