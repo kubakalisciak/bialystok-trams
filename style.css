@@ -83,43 +83,12 @@ button {
 h2 {
     text-align: center;
 }
+
 .image img {
     width: 150px;
     border-radius: 10px;
     border: 3px solid #222;
     padding: 3px;
-}
-
-.quote {
-    background-color: #eee;
-    font-style: italic;
-    padding: 10px 50px;
-    font-size: larger;
-    display: flex;
-    flex-direction: column;
-    flex-grow: 0;
-    align-items: center;
-}
-
-.quote p {
-    width: 600px;
-}
-
-#author {
-    font-size: medium;
-    font-weight: bold;
-    text-align: right;
-}
-
-.sign {
-    background-color: #3ecc3e;
-    width: 600px;
-    align-self: center;
-    margin: 15px 0;
-    padding: 10px;
-    border-radius: 10px;
-    border: 3px solid #222;
-    margin-bottom: auto;
 }
 
 .footer {
