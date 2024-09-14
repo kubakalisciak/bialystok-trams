@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 
+/* general */
 * {
     margin: 0;
     padding: 0;
@@ -10,25 +11,11 @@ body {
     flex-direction: column;
     height: 100vh;
     
-    font-family: 'Roboto';
+    font-family: 'JetBrains Mono';
 }
 
-li {
-    display: inline;
-    padding: 10px;
-}
-
-.header {
-    display: flex;
-    justify-content: space-between;
-    
-    background-color: #222;
-    color: #eee;
-    padding: 20px 75px;
-}
-.header-hero {
-    font-size: larger;
-    font-weight: bold;
+img {
+    border-radius: 10px;
 }
 
 a {
@@ -37,6 +24,28 @@ a {
     text-decoration: none;
 }
 
+/* header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    
+    background-color: #222;
+    color: #eee;
+    padding: 20px 75px;
+}
+
+.header-hero {
+    font-size: larger;
+    font-weight: bold;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+}
+
+
+/* top section */
 .top {
     display: flex;
     padding: 10px 100px;
@@ -46,51 +55,74 @@ a {
     color: #eee;
 }
 
-button {
-    background-color: transparent;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 10px;
-    color: #eee;
-    font-weight: 600;
+.top img {
+    width: 500px;
 }
 
-.images {
+.top p {
+    width: 500px;
+    align-self: center;
+}
+
+/* projects section */
+.projects {
     display: flex;
     flex-direction: column;
     padding: 10px;
+    align-items: center;
 }
 
-.images-box {
+.projects-box {
     display: flex;
     padding: 10px;
     justify-content: center;
     align-items: start;
     flex-wrap: wrap;
     gap: 25px;
+    max-width: 900px;
+    align-items: center;
 }
 
-.image {
+.project {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 150px;
     flex: none;
     text-align: center;
+    border: 3px solid #222;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 250px;
 }
 
 h2 {
     text-align: center;
 }
 
-.image img {
-    width: 150px;
+.project img {
+    width: 250px;
     border-radius: 10px;
-    border: 3px solid #222;
     padding: 3px;
 }
 
+.project a {
+    color: #222;
+}
+
+/* socials section */
+.socials {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.socials a {
+    color: #222;
+}
+
+/* footer */
 .footer {
     display: flex;
     justify-content: center;
